@@ -12,4 +12,21 @@ function megaFriend(friends) {
 }
 const friends = ['kutub', 'Lion', 'Shamol', 'Sabbir'];
 const myBigBuddy = megaFriend(1245);
-console.log(myBigBuddy);
+// console.log(myBigBuddy);
+
+if (friends.indexOf('fox') != -1){
+    console.log('lion exists');
+}
+else {
+    console.log("fox doesn't exists")
+}
+
+// includes
+if ( friends.includes('lion')){
+    console.log('Lion exits using includes')
+}
+// concat
+const first = [1, 3, 5];
+const second = [4, 6, 8, 9];
+const combined = first.concat(second);
+console.log(combined);
